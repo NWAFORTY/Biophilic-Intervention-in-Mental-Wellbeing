@@ -4,6 +4,8 @@
 
 Urban, screen-heavy lifestyles cut everyday contact with nature. Biophilic design brings natural elements into built spaces. This project prototypes two contrasting VR scenes — an icy Arctic setting and a domed garden — and records how people respond after a six-minute session.
 
+**Presentation (YouTube):** [https://youtu.be/5-pKqxjzwYs](https://youtu.be/5-pKqxjzwYs)
+
 ## Evaluation (pilot)
 
 - **N = 15** convenience sample (not a clinical trial).
@@ -20,6 +22,7 @@ The course folder is `Biophilic Intervention in Mental Wellbeing/`.
 
 | Path | Role |
 | --- | --- |
+| [Presentation](https://youtu.be/5-pKqxjzwYs) | YouTube video for the Biophilic Intervention presentation |
 | `N1205091_report.docx` | Final project report |
 | `N1205091_Project_Planning_Document.pdf` | Project planning document |
 | `N1205091_source/N1205091_source/biophilic_vr_data_entry.csv` | Study data |
@@ -32,7 +35,7 @@ The course folder is `Biophilic Intervention in Mental Wellbeing/`.
 - `N1205091_source.zip` (~1.1 GB)
 - `finalDemo.mp4` (~1.05 GB)
 
-Keep those locally in Downloads if you need the demo video.
+Keep those locally in Downloads if you need the original files. Watch the [YouTube presentation](https://youtu.be/5-pKqxjzwYs) instead of the large demo video.
 
 ## Course
 
