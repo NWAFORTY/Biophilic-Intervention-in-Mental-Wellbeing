@@ -1,42 +1,44 @@
 # Biophilic Intervention in Mental Wellbeing
 
-**Evaluating Biophilic Intervention for Mental Wellbeing** is a BSc Computer Science (Games Technology) final-year project by Tobenna Nwafor (N1205091). It tests whether short immersive VR nature scenes can support stress and mood, using Unreal Engine, OpenXR, and a Meta Quest 2 (PCVR / Air Link).
+**Final-year project (FYP)** — BSc Computer Science (Games Technology), Nottingham Trent University.
 
-Urban, screen-heavy lifestyles cut everyday contact with nature. Biophilic design brings natural elements into built spaces. This project prototypes two contrasting VR scenes — an icy Arctic setting and a domed garden — and records how people respond after a six-minute session.
+Immersive **Unreal Engine** VR scenes (OpenXR, Meta Quest 2 / PCVR Air Link) that simulate nature for short wellbeing sessions. Two contrasting environments: an icy Arctic setting and a domed garden. A small pilot (N = 15) recorded stress, mood, presence, cybersickness, and heart rate after six minutes of exposure.
 
 **Presentation (YouTube):** [https://youtu.be/5-pKqxjzwYs](https://youtu.be/5-pKqxjzwYs)
 
+This is the same engine stack as [CorsiVR](https://github.com/NWAFORTY/VR): Unreal Engine + OpenXR.
+
+## Tech stack
+
+| | |
+| --- | --- |
+| Engine | Unreal Engine (OpenXR) |
+| Hardware | Meta Quest 2, PCVR (Air Link), 75 Hz |
+| Evaluation | PSS-10, PANAS-style affect, presence, cybersickness, Coospo chest-strap HR |
+| Author | Tobenna Nwafor (N1205091) · Supervisor: James Lewis |
+
 ## Evaluation (pilot)
 
-- **N = 15** convenience sample (not a clinical trial).
-- **Measures:** PSS-10 (stress), PANAS-style positive/negative affect, presence, cybersickness, audio clarity, and Coospo chest-strap heart rate (start, min, peak, end, mean BPM).
-- Headset refresh **75 Hz**, sessions about **6 minutes**.
-- Data live in `biophilic_vr_data_entry.csv` (`n001`–`n015`).
-- Outcome is **feasibility and a reproducible data pipeline**, not medical proof. Limits include fixed scene order, post-session-only psychometrics, streaming artefacts, short exposure, and non-clinical recruitment.
+Not a clinical trial. Convenience sample, **N = 15**.
 
-Supervisor: James Lewis, NTU School of Science and Technology.
+- Sessions ~**6 minutes**, post-session questionnaires (no pre-exposure psychometrics).
+- Heart rate: start, minimum, peak, end, mean BPM.
+- Aim: **feasibility** and a reproducible data pipeline, not therapeutic proof.
+- Limits: fixed scene order, short exposure, tethered-streaming artefacts, non-clinical recruitment.
 
-## Project files
+Study sheet: `biophilic_vr_data_entry.csv` (`n001`–`n015`).
 
-The course folder is `Biophilic Intervention in Mental Wellbeing/`.
+## Repository contents
 
-| Path | Role |
+The Unreal project and demo video are too large for GitHub (zip and `finalDemo.mp4` are ~1 GB each). This repo holds the report, plan, and data. The playable build is on YouTube.
+
+| | |
 | --- | --- |
-| [Presentation](https://youtu.be/5-pKqxjzwYs) | YouTube video for the Biophilic Intervention presentation |
-| `N1205091_report.docx` | Final project report |
-| `N1205091_Project_Planning_Document.pdf` | Project planning document |
-| `N1205091_source/N1205091_source/biophilic_vr_data_entry.csv` | Study data |
-| `N1205091_source/N1205091_source/fyp test.pdf` | FYP test notes |
-| `N1205091_source/N1205091_source/N1205091_PPD.pdf` | Planning document copy |
-| `Student AI Usage Declaration Form for final report.docx` | AI usage declaration |
+| [Presentation](https://youtu.be/5-pKqxjzwYs) | FYP demo / presentation |
+| `N1205091_report.docx` | Final report |
+| `N1205091_Project_Planning_Document.pdf` | Planning document |
+| `N1205091_source/.../biophilic_vr_data_entry.csv` | Pilot data |
 
-**Not in this repo** (over GitHub’s 100 MB limit):
+## Related
 
-- `N1205091_source.zip` (~1.1 GB)
-- `finalDemo.mp4` (~1.05 GB)
-
-Keep those locally in Downloads if you need the original files. Watch the [YouTube presentation](https://youtu.be/5-pKqxjzwYs) instead of the large demo video.
-
-## Course
-
-NTU Games Technology FYP — biophilic VR for wellbeing, Unreal/OpenXR prototype, and a small mixed-methods pilot (self-report + heart rate).
+- [CorsiVR](https://github.com/NWAFORTY/VR) — Unreal Engine 5.7 OpenXR memory game (module VR project)
